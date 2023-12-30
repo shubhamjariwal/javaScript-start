@@ -57,3 +57,25 @@ Number => number
        Function  =>  function
        Object  =>  object
 */
+
+//++++++++++++++++++++++++++++++++++++++++++
+
+// stack (primitive), Heap (non primitive)
+
+let myGirlfriend = "salini"
+let anotherGirlfried = myGirlfriend
+anotherGirlfried = "pari"
+
+console.log(myGirlfriend);
+console.log(anotherGirlfried);
+
+let gfOne = {
+    name: "pari",
+    age: 18,
+}
+let gfTwo = gfOne
+
+gfTwo.age = 20
+
+console.log(gfOne.age);
+console.log(gfTwo.age);
