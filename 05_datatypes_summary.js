@@ -45,3 +45,15 @@ const myFunction = function(){
     console.log("Hello World");
 }
 
+/*
+Number => number
+       String  => string
+       Boolean  => boolean
+       null  => object
+       undefined  =>  undefined
+       Symbol  =>  symbol
+       BigInt  =>  bigint
+       Arrays  =>  object
+       Function  =>  function
+       Object  =>  object
+*/
