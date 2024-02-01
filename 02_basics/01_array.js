@@ -13,14 +13,13 @@ console.log(myHeros[0]);
 myArr.push(7)
 myArr.push(8)
 myArr.pop()
-
 myArr.unshift(9)
 myArr.shift()
 
 console.log(myArr.includes(9));
 console.log(myArr.indexOf(4));
-
-console.log(myArr);
+console
+.log(myArr);
 
 ///////////////////////////////////////////////
 
